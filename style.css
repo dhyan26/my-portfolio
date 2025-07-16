@@ -1,73 +1,37 @@
 body {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 10;
-  padding: 10;
-  background-color: #0571ed;
-  font-size: 30px;
-  color: #000000;
-}
-header {
-  background-color: #f6f8fa;
-  color: rgb(232, 7, 7);
-  padding: 10px;
-  text-align: center;
-}
-section {
-  padding: 5px;
-}
-h2 {
-  color: #ff6200;
-}
-h3 {
-    color: #46f600;
-}
-ul {
-  list-style-type: none;
-  padding:2px;
-}
-ul li {
-  background: #f7f5f5;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 5px;
-}
-h4 {
-    color: #ff00c3;
-    font-size: 20px;
-}
-.project {
-  background-color: #0cf857;
-  border: 1px solid #000000;
-  padding: 8px;
-  margin-bottom: 5px;
-  border-radius: 8px;
-}
-form {
   display:grid;
-  flex-direction:column;
-  gap: 10px;
-  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  background-color: rgb(7, 171, 241);
+  font-family:'Times New Roman', Times, serif;;
 }
-input, textarea {
-  padding: 8px;
-  border: 2px solid #070000;
-  border-radius: 4px;
+.calculator {
+  background-color:aqua;
+  padding:20px;
+  width:350px;
+}
+#display {
+  width:325px;
+  height:70px;
+  font-size:large;
+  text-align:right;
+  margin-bottom:15px;
+  padding:10px;
+  border:#000000;
+  background-color:aliceblue;
+}
+.buttons {
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:5px;
 }
 button {
-  padding: 8px;
-  border: 2px solid black;
-  background-color: #01070e;
-  color: rgb(255, 0, 0);
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  padding:20px;
+  font-size:large;
+  background-color:blue;
+  color:rgb(12, 12, 12);
 }
 button:hover {
-  background-color: #05ecec;
-}
-footer {
-  background-color: #ffffff;
-  color: rgb(243, 11, 11);
-  text-align: center;
-  padding: 10px;
+  background-color:blueviolet;
 }
